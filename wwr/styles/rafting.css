@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&display=swap');
+
+:root{
+    --primary-color:#348f94;
+    --secondary-color:#1b4965;
+    --accent1-color:#96c3cc;
+    --accent2-color:#62939f31;
+
+    --heading-font: " Crimson+Text", serif;
+    --paragraph-font:  "Merienda" , serif;
+
+    --nav-background-color: #1b4965;
+    --nav-link-color: #edffcac2;
+    --nav-hover-link-color: #5fa8d3;
+    --nav-hover-background-color: #bee9e8;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+    }
+
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+h1 {
+    position: absolute;
+}
+
+article {
+    position: absolute;
+    background-color: #96c3cc;
+    opacity: rgb(168, 179, 180);
+    top: 47px;
+    width: 100px;
+
+}
+article img {
+    float: right;
+}
