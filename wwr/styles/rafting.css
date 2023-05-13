@@ -176,6 +176,7 @@ article {
     left: 700px;
     transform: translate(-50%, -50%);
     height: 160px;
+    max-width: 100%;
 
 }
 article img {
@@ -226,7 +227,7 @@ body{
     background-color: #e6f2f3;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 100%) {
     #hero, .home-grid {
         display: block;
         height: auto;
