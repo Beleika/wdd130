@@ -162,7 +162,7 @@ section p {
 h1 {
     position: absolute;
     width: 100%;
-    top: 70%;
+    top: 150px;
     text-align: center;
     color: white;
     background-color: rgb(82, 9, 9);
@@ -176,7 +176,7 @@ article {
     background-color:  rgb(82, 9, 9);
     opacity: .6;
    
-    top: 190%;
+    top: 350px;
     left: 700px;
     transform: translate(-50%, -50%);
     height: 160px;
